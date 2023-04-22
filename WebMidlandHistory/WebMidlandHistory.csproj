@@ -69,6 +69,13 @@
   <ItemGroup>
     <Content Include="Content\estilos.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\1c.jpg" />
+    <Content Include="Images\2c.jpg" />
+    <Content Include="Images\3c.png" />
+    <Content Include="Images\face.png" />
+    <Content Include="Images\insta.png" />
+    <Content Include="Images\logoMid.jpg" />
+    <Content Include="Images\mail.png" />
     <Content Include="Scripts\JavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>

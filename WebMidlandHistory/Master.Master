@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebMidlandHistory.Master" %>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
@@ -12,50 +13,63 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" style="margin-right:30px" href="#">Midland History</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-            
-          <a class="nav-link active" aria-current="page" href="Default.aspx">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Highlights</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">BookShop</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Stories
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">People</a></li>
-            <li><a class="dropdown-item" href="#">Places</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Collection and Archives" aria-label="Search">
-        <button class="btn btn-outline-light" type="submit">Search</button>
-      </div>
-    </div>
-  </div>
-</nav>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/logoMid.jpg" style="height: 110px" alt="Alternate Text" />                     
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="Default.aspx">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsors</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Latest news</a></li>
+                                    <li><a class="dropdown-item" href="#">Events</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">About the society</a></li>
+                                    <li><a class="dropdown-item" href="#">Committee</a></li>
+                                    <li><a class="dropdown-item" href="#">Our vision</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Collection policy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+           
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <footer class="footer">
-                <button type="button" class="btn btn-light btn-sm">Contact Us</button>
-            </footer>
+       
+<footer class="mt-5" style="background-color: #212121; padding: 30px; color: #fff;">  
+ 
+  <div class="text-center mt-3">
+    <p class="text-center mt-3">&copy; 2023 MidlandH. All rights reserved. Designed and developed by Takakak.</p>
+  </div>
+</footer>
+
     </form>
-    <script src="Scripts/JavaScript.js"></script>
 </body>
 </html>
