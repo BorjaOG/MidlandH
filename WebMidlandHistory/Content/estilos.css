@@ -1,64 +1,48 @@
-
-.mt-5 {
-    margin-top: 5rem;
-}
-/* Estilos para vista PC */
-@media only screen and (min-width: 992px) {
-    .navbar-pc {
-        margin-top: 5%;
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+    /* Hacer que la imagen del logotipo sea más pequeña */
+    .navbar-brand img {
+        height: 80px;
     }
 
-        .navbar-pc .nav-item {
-            margin-left: 15px;
-            margin-right: 15px;
-            font-size: 1.5rem;
-        }
-
-            .navbar-pc .nav-item:first-child {
-                margin-left: 0;
-            }
-}
-/* Estilos para pantalla grande */
-@media (min-width: 992px) {
+    /* Hacer que el texto del encabezado sea más pequeño */
     .navbar-nav li a {
-        font-size: 20px;
-        margin-right: 26px;
-        margin-left: 26px;
+        font-size: 14px;
+    }
+
+    /* Alinear el texto del encabezado a la izquierda */
+    .navbar-nav {
+        text-align: left !important;
     }
 }
 
-
-/* Estilos para vista móvil */
-@media only screen and (max-width: 991px) {
-    .navbar-mobile .nav-item {
-        margin-bottom: 5px;
-        font-size: 1.2rem;
+/* Estilos para pantallas medianas y grandes */
+@media (min-width: 768px) {
+    /* Hacer que la imagen del logotipo sea más grande */
+    .navbar-brand img {
+        height: 100px;
     }
 
-        .navbar-mobile .nav-item:first-child {
-            margin-top: 10px;
-        }
+    /* Hacer que el texto del encabezado sea más grande */
+    .navbar-nav li a {
+        font-size: 16px;
+    }
+
+    /* Alinear el texto del encabezado al centro */
+    .navbar-nav {
+        text-align: center !important;
+    }
 }
 
+/* Estilos para pantallas extra grandes */
+@media (min-width: 992px) {
+    /* Hacer que la imagen del logotipo sea aún más grande */
+    .navbar-brand img {
+        height: 120px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* Hacer que el texto del encabezado sea aún más grande */
+    .navbar-nav li a {
+        font-size: 18px;
+    }
+}
