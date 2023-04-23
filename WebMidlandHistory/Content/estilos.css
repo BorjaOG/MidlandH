@@ -1,48 +1,12 @@
-/* Estilos para pantallas pequeñas */
-@media (max-width: 767px) {
-    /* Hacer que la imagen del logotipo sea más pequeña */
-    .navbar-brand img {
-        height: 80px;
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        font-size: 1.25rem;
     }
 
-    /* Hacer que el texto del encabezado sea más pequeño */
-    .navbar-nav li a {
-        font-size: 14px;
-    }
-
-    /* Alinear el texto del encabezado a la izquierda */
-    .navbar-nav {
-        text-align: left !important;
-    }
-}
-
-/* Estilos para pantallas medianas y grandes */
-@media (min-width: 768px) {
-    /* Hacer que la imagen del logotipo sea más grande */
-    .navbar-brand img {
-        height: 100px;
-    }
-
-    /* Hacer que el texto del encabezado sea más grande */
-    .navbar-nav li a {
-        font-size: 16px;
-    }
-
-    /* Alinear el texto del encabezado al centro */
-    .navbar-nav {
-        text-align: center !important;
-    }
-}
-
-/* Estilos para pantallas extra grandes */
-@media (min-width: 992px) {
-    /* Hacer que la imagen del logotipo sea aún más grande */
-    .navbar-brand img {
-        height: 120px;
-    }
-
-    /* Hacer que el texto del encabezado sea aún más grande */
-    .navbar-nav li a {
-        font-size: 18px;
+    .navbar-nav > li > a {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: 3%;
     }
 }
