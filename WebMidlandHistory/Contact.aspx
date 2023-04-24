@@ -2,8 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h1 style="margin-top:20%; margin-bottom:5%">Contac Us</h1>
-   
+   <div class="container"> 
+       <h1 style= "margin-bottom:5%">Contac Us</h1>
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
@@ -36,7 +36,7 @@
             </div>
         </div><div class="col-md-12">
                     <asp:Button OnClientClick="return validateForm();" style="margin-left:1%; margin-top:5%; margin-bottom:4%" ID="btnEnviar" 
-                class="btn btn-dark" runat="server" Text="Send" />
+                class="btn btn-dark" runat="server" OnClick="btnEnviar_Click" Text ="Send" />
           <asp:Label style="display: block; max-width: 300px; margin-top: 10px;" ID="lblMessage" runat="server" Visible="false" CssClass="alert alert-success"></asp:Label><script>
                    function validateForm() {
                        var email = document.getElementById("email").value;
@@ -53,4 +53,5 @@
         </script>
         </div>
           </div>
+   </div>
 </asp:Content>

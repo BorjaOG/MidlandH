@@ -70,8 +70,11 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\estilos.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\1.jpg" />
     <Content Include="Images\1c.jpg" />
+    <Content Include="Images\2.jpg" />
     <Content Include="Images\2c.jpg" />
+    <Content Include="Images\3.jpg" />
     <Content Include="Images\3c.png" />
     <Content Include="Images\4.jpg" />
     <Content Include="Images\car2.gif" />

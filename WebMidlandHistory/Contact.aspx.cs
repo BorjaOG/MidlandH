@@ -13,5 +13,11 @@ namespace WebMidlandHistory
         {
 
         }
+
+        protected void btnEnviar_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = "Message sent. We'll be in touch soon!";
+            lblMessage.Visible = true;
+        }
     }
 }

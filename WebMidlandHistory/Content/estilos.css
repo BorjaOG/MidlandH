@@ -3,14 +3,23 @@
     .navbar {
         font-size: 1.30rem;
     }
-
+ .h1 {
+        margin-top: 16%;
+    }
 }
-
 footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
 }
+
+/* small devices */
+@media (max-width: 767px) {
+    h1 {
+        margin-top: 30%;
+    }
+}
+
 
 
