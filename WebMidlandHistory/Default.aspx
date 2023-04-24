@@ -8,19 +8,18 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-interval="4000" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="Images/1c.jpg" class="img-fluid" alt="...">
+                    <img src="Images/3c.png" class="img-fluid" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="Images/2c.jpg" class="img-fluid" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="Images/3c.png" class="img-fluid" alt="...">
+                    <img src="Images/1c.jpg" class="img-fluid" alt="...">
                 </div>
             </div>
         </div>
     </div>
-
-    <h1 style="margin-top: 10%; margin-bottom: 4%; font-family: italic; text-align: center;">Welcome</h1>
+    <h1 style="margin-top: 5%; margin-bottom: 4%; font-family: italic; text-align: center;">Welcome</h1>
     <h4 style="margin-top: 5%; margin-bottom: 5%; margin-right: 25%; margin-left: 25%; font-family: italic; text-align: center;">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.
     </h4>
     <div class="container-fluid">

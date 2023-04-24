@@ -1,12 +1,16 @@
 
 @media screen and (min-width: 992px) {
     .navbar {
-        font-size: 1.25rem;
+        font-size: 1.30rem;
     }
 
-    .navbar-nav > li > a {
-        padding-left: 3%;
-        padding-right: 3%;
-        margin-right: 3%;
-    }
 }
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
