@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div class="carousel-container text-center">
     <a href="Contact.aspx">
-    <div style="margin-top:16%" id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-interval="4000" data-bs-ride="carousel">
+    <div style="margin-top:15%; margin-left:1%" id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-interval="4000" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="Images/3c.png" class="img-fluid" alt="...">
@@ -36,18 +36,18 @@
 <div class="container-fluid">
   <div class="row g-0">
     <div class="col-md-8">
-      <img src="Images/4.jpg" class="img-fluid" style="margin-bottom: 20px;">
+      <img src="Images/2.jpg" class="img-fluid" style="margin-bottom: 20px;">
     </div>
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 d-flex align-items-center px-md-4">
       <div class="text-center">
         <h4 class="card-title">Título de la card</h4>
-        <h5 class="card-text">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.</h5>
+        <h5 class="card-text mx-3">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.</h5>
         <p><a href="https://www.ejemplo.com">more..</a></p>
       </div>
     </div>
   </div>
   <div class="row g-0">
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 d-flex align-items-center px-md-4">
       <div class="text-center">
         <h4 class="card-title">Título de la card</h4>
         <h5 class="card-text">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.</h5>
@@ -55,14 +55,14 @@
       </div>
     </div>
     <div class="col-md-8">
-      <img src="Images/1.jpg" alt="Descripción de la imagen" class="img-fluid" style="margin-bottom: 20px;">
+      <img src="Images/2.jpg" alt="Descripción de la imagen" class="img-fluid" style="margin-bottom: 20px;">
     </div>
   </div>
   <div class="row g-0">
     <div class="col-md-8">
-      <img src="Images/3.jpg" class="img-fluid" style="margin-bottom: 20px;">
+      <img src="Images/2.jpg" class="img-fluid" style="margin-bottom: 20px;">
     </div>
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 d-flex align-items-center px-md-4">
       <div class="text-center">
         <h4 class="card-title">Título de la card</h4>
         <h5 class="card-text">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.</h5>
@@ -71,7 +71,7 @@
     </div>
   </div>
     <div class="row g-0">
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-4 d-flex align-items-center px-md-4">
       <div class="text-center">
         <h4 class="card-title">Título de la card</h4>
         <h5 class="card-text">Texto de la card. Puedes agregar aquí una descripción o más detalles sobre el contenido que quieres mostrar en la card.</h5>
@@ -79,7 +79,7 @@
       </div>
     </div>
     <div class="col-md-8">
-      <img src="Images/1.jpg" alt="Descripción de la imagen" class="img-fluid" style="margin-bottom: 20px;">
+      <img src="Images/2.jpg" alt="Descripción de la imagen" class="img-fluid" style="margin-bottom: 20px;">
     </div>
   </div>
 </div>

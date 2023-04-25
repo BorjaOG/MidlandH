@@ -77,9 +77,11 @@
     <Content Include="Images\3.jpg" />
     <Content Include="Images\3c.png" />
     <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
     <Content Include="Images\car2.gif" />
     <Content Include="Images\carcraft1.png" />
     <Content Include="Images\face.png" />
+    <Content Include="Images\horse.jpg" />
     <Content Include="Images\insta.png" />
     <Content Include="Images\location.png" />
     <Content Include="Images\logoMid.png" />

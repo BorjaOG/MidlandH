@@ -75,7 +75,7 @@
                 </asp:ContentPlaceHolder>
             </div>
         </div>
-        <footer class="footer bg-dark text-light" style="padding-right: 15px">
+        <footer  style="width:100%" class=" footer bg-dark text-light">
             <div class="container">
                 <div class="row mt-4">
                     <div class="col-12 text-center">
