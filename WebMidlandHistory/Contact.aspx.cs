@@ -19,5 +19,10 @@ namespace WebMidlandHistory
             lblMessage.Text = "Message sent. We'll be in touch soon!";
             lblMessage.Visible = true;
         }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
