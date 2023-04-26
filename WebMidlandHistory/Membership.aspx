@@ -13,7 +13,7 @@
   </div>
 </div>
 
-        <div style="margin-bottom: 20%; margin-top: 10%" class="card text-center">
+        <div style="margin-bottom: 10%; margin-top: 10%" class="card text-center">
             <div class="card-header">
                 <h5 class="card-body">SOCIETY MEMBERSHIP</h5>
             </div>
