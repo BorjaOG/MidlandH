@@ -1,0 +1,32 @@
+.navbar-nav .nav-link {
+    font-size: 1.30rem;
+}
+
+.sponsor-thanks {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+}
+
+    .sponsor-thanks h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .sponsor-thanks p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .sponsor-logos img {
+        max-width: 150px;
+        margin: 20px;
+    }

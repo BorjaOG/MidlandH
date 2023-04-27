@@ -91,6 +91,7 @@
     <Content Include="Images\phone.png" />
     <Content Include="Membership.aspx" />
     <Content Include="Scripts\JavaScript.js" />
+    <Content Include="Sponsors.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +124,13 @@
       <DependentUpon>Membership.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sponsors.aspx.cs">
+      <DependentUpon>Sponsors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sponsors.aspx.designer.cs">
+      <DependentUpon>Sponsors.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master.Master" />
