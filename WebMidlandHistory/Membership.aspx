@@ -8,8 +8,8 @@
 <div class="card mb-3">
   <div style="position: relative;">
     <img style="margin-top:7%" height="600" src="Images/2.jpg" class="card-img-top" alt="...">
-    <h1 style=" position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white; font-size: 4rem; margin: 0; padding: 0;">Membership</h1>
-    <h5 style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white; font-size: 1.5rem; margin: 0; padding: 0; text-align: center;">Joining our historical society, Midland and District Historical Society, will help us grow and preserve our heritage. As a member, you'll have access to exclusive events and activities. You can participate in our efforts to collect and preserve artifacts and meet like-minded people who share your passion for history. Become a member today and enjoy the benefits of being part of our vibrant and active community!</h5>
+    <h1 style=" font-family: italic; position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white; font-size: 4rem; margin: 0; padding: 0;">Membership</h1>
+    <h5 style="font-family: italic; position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white; font-size: 1.5rem; margin: 0; padding: 0; text-align: center;">Joining our historical society, Midland and District Historical Society, will help us grow and preserve our heritage. As a member, you'll have access to exclusive events and activities. You can participate in our efforts to collect and preserve artifacts and meet like-minded people who share your passion for history. Become a member today and enjoy the benefits of being part of our vibrant and active community!</h5>
   </div>
 </div>
 
