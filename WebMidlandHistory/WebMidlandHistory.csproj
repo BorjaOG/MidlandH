@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Coming.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\estilos.css" />
     <Content Include="Default.aspx" />
@@ -82,12 +83,14 @@
     <Content Include="Images\8.jpg" />
     <Content Include="Images\car2.gif" />
     <Content Include="Images\carcraft1.png" />
+    <Content Include="Images\events.jpg" />
     <Content Include="Images\face.png" />
     <Content Include="Images\horse.jpg" />
     <Content Include="Images\insta.png" />
     <Content Include="Images\location.png" />
     <Content Include="Images\logoMid.png" />
     <Content Include="Images\mail.png" />
+    <Content Include="Images\news.jpg" />
     <Content Include="Images\phone.png" />
     <Content Include="Membership.aspx" />
     <Content Include="Scripts\JavaScript.js" />
@@ -95,6 +98,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coming.aspx.cs">
+      <DependentUpon>Coming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coming.aspx.designer.cs">
+      <DependentUpon>Coming.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

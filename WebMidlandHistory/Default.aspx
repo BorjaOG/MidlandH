@@ -51,7 +51,7 @@
       <div class="text-center p-3">
         <h4 class="card-title" style="font-family: italic; margin-bottom:5%;">What's coming</h4>
         <h5 class="card-text" style="font-family: italic; margin-bottom:5%;">Keep track of our latest events and announcements in the "What's Coming" section. Don't miss out on upcoming exhibits, lectures, and community activities - stay informed and check back often!</h5>
-        <p><a class="btn btn-dark" href="Membership.aspx">Read more</a></p>
+        <p><a class="btn btn-dark" href="Coming.aspx">Read more</a></p>
       </div>
     </div>
     <div class="col-md-8">

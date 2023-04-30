@@ -46,8 +46,8 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Latest news</a></li>
-                                    <li><a class="dropdown-item" href="#">Events</a></li>
+                                    <li><a class="dropdown-item" href="Coming.aspx">Latest news</a></li>
+                                    <li><a class="dropdown-item" href="#">Coming.aspx</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
