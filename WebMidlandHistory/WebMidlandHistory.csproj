@@ -67,11 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Coming.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\estilos.css" />
     <Content Include="Default.aspx" />
     <Content Include="Images\1.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\12.jpg" />
+    <Content Include="Images\14.jpg" />
     <Content Include="Images\1c.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\2c.jpg" />
@@ -98,6 +102,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Coming.aspx.cs">
       <DependentUpon>Coming.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
