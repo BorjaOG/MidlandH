@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <script runat="server">
 
     Protected Sub btnContact_Click(sender As Object, e As EventArgs)
@@ -19,56 +19,55 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #343a40">
-                <div class="container-fluid d-flex align-items-center justify-content-between">
-                    <div class="d-flex align-items-center">
-                        <img class="navbar-brand" src="Images/logoMid.png" style="margin-left: -1%; height: 140px" alt="Alternate Text" />
-                        <h5 style="margin-left: -10px" class="navbar-text text-center">Midland and districts
-                            <br>
-                            historical society
-                           
-                            inc.
-                        </h5>
-                    </div>
-                    <button class="navbar-toggler  order-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #343a40">
+  <div class="container-fluid d-flex align-items-center justify-content-between justify-content-center">
+    <div class="d-flex align-items-center">
+      <img class="navbar-brand" src="Images/logoMid.png" style="margin-left: -1%; height: 140px" alt="Alternate Text" />
+      <h5 style="margin-left: -10px; color:white" class="navbar-text text-center">Midland and districts historical society inc.</h5>
+    </div>
+    <button class="navbar-toggler order-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-                    <div class="collapse navbar-collapse order-1 w-100" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="Default.aspx">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Membership.aspx">Membership</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="Coming.aspx">Latest news</a></li>
-                                    <li><a class="dropdown-item" href="#">Coming.aspx</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="About.aspx">About the society</a></li>                                    
-                                    <li><a class="dropdown-item" href="About.aspx">Our vision</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="About.aspx">Collection policy</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Sponsors.aspx">Sponsors</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <div class="collapse navbar-collapse order-1 w-100" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-center" style="margin-right: 20px;">
+        <li  style="margin-left: 45px;" class="nav-item " >
+          <a class="nav-link text-white" href="Default.aspx">Home</a>
+        </li>
+        <li class="nav-item" style="margin-left: 45px;">
+          <a class="nav-link text-white" href="Membership.aspx">Membership</a>
+        </li>
+        <li class="nav-item dropdown" style="margin-left: 45px;">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Coming.aspx">Latest news</a></li>
+            <li><a class="dropdown-item" href="Coming.aspx">Events</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown" style="margin-left: 45px;">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="About.aspx">About the society</a></li>
+            <li><a class="dropdown-item" href="About.aspx">Our vision</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="About.aspx">Collection policy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item" style="margin-left: 45px;">
+          <a class="nav-link text-white" href="Sponsors.aspx">Sponsors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
             <div class="content">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
@@ -90,9 +89,9 @@
                     <div class="col-md-6">
                         <h6>COMMITTEE</h6>
                         <ul class="list-unstyled">
-                            <li>John Doe</li>
-                            <li>Jane Doe</li>
-                            <li>Bob Smith</li>
+                            <li>Name Name</li>
+                            <li>Name Name</li>
+                            <li>Name name</li>
                         </ul>
                     </div>
                 </div>
@@ -123,4 +122,3 @@
     </form>
 </body>
 </html>
-

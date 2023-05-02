@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    
     <div style="margin-top: 19%; position:relative" class="container"> 
-        <h1 class="text-center" style="margin-bottom: 5%;">Contact Us</h1>
+        <h1 class="text-center" style="margin-bottom: 5%; font-family: italic">Contact Us</h1>
         <h5 class="text-center" style="font-family: italic ;margin-bottom: 12%; margin-top:8%">If you are interested in becoming a member or have any questions about our historical society, please don't hesitate to contact us using the form below. We would love to hear from you and help you get involved in our community. Thank you for your interest in the Midland and District Historical Society.</h5>
         <div class="row">
             <div class="col-md-6">

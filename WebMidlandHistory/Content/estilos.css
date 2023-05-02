@@ -1,6 +1,31 @@
 .navbar-nav .nav-link {
     font-size: 1.30rem;
 }
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .navbar-text {
+        font-size: 16px;
+        margin-left: 0;
+        line-height: 1.2;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+        .navbar-nav .nav-item {
+            margin: 10px 0;
+        }
+}
+
 
 .sponsor-thanks {
     background-color: #f8f8f8;
@@ -30,3 +55,5 @@
         max-width: 150px;
         margin: 20px;
     }
+
+

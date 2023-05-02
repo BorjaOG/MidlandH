@@ -85,8 +85,6 @@
     <Content Include="Images\5.jpg" />
     <Content Include="Images\6.jpg" />
     <Content Include="Images\8.jpg" />
-    <Content Include="Images\car2.gif" />
-    <Content Include="Images\carcraft1.png" />
     <Content Include="Images\events.jpg" />
     <Content Include="Images\face.png" />
     <Content Include="Images\horse.jpg" />
@@ -96,6 +94,10 @@
     <Content Include="Images\mail.png" />
     <Content Include="Images\news.jpg" />
     <Content Include="Images\phone.png" />
+    <Content Include="Images\s1.png" />
+    <Content Include="Images\s2.png" />
+    <Content Include="Images\s3.png" />
+    <Content Include="Images\s4.png" />
     <Content Include="Membership.aspx" />
     <Content Include="Scripts\JavaScript.js" />
     <Content Include="Sponsors.aspx" />
