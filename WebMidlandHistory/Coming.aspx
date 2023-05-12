@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section>
     <div class=" mb-3">
   <div style="position: relative;">
     <img style="margin-top:12%" height="600" src="Images/news.jpg" class="card-img-top" alt="...">
@@ -33,8 +34,9 @@
     </div>
   </div>
 </div>
-
 </div>
+        </section>
+    <section>
         <div class=" mb-3">
   <div style="position: relative;">
     <img style="margin-top:7%" height="600" src="Images/events.jpg" class="card-img-top" alt="...">
@@ -66,6 +68,6 @@
     </div>
   </div>
 </div>
-
 </div>
+        </section>
 </asp:Content>
