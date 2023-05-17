@@ -62,12 +62,6 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
-
             <div class="content">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
@@ -81,17 +75,17 @@
                     <div class="col-md-6">
                         <h6>CONTACT</h6>
                         <ul class="list-unstyled">
-                            <li><img src="Images/mail.png" alt="Email" style="height:15px; width:15px"> Email: hystorymidland@gmail.com</li>
                             <li><img src="Images/phone.png" alt="Phone Number" style="height:15px; width:15px"> Phone: 0438884719</li>
                             <li><img src="Images/location.png" alt="Location" style="height:15px; width:15px"> Location: Blacksmith La, Midland WA 6056</li>
+                            <li style="margin-left:-4%"><img src="Images/mail.png" alt="Email" style="height:15px; width:15px"> Email: hystorymidland@gmail.com</li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <h6>COMMITTEE</h6>
                         <ul class="list-unstyled">
-                            <li>Name Name</li>
-                            <li>Name Name</li>
-                            <li>Name name</li>
+                            <li>Matthew Pavlinovich</li>
+                            <li>Matthew Pavlinovich</li>
+                            <li>Matthew Pavlinovich</li>
                         </ul>
                     </div>
                 </div>
