@@ -36,7 +36,7 @@
 </div>
 </div>
         </section>
-    <section>
+    <section id="events">
         <div class=" mb-3">
   <div style="position: relative;">
     <img style="margin-top:7%" height="600" src="Images/events.jpg" class="card-img-top" alt="...">
