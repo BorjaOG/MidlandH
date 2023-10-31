@@ -41,18 +41,18 @@
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Coming.aspx">Latest news</a></li>
-            <li><a class="dropdown-item" href="Coming.aspx">Events</a></li>
+            <li><a class="dropdown-item" href="Coming.aspx#events">Events</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown" style="margin-left: 45px;">
           <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="About.aspx">About the society</a></li>
-            <li><a class="dropdown-item" href="About.aspx">Our vision</a></li>
+            <li><a class="dropdown-item" href="About.aspx#future">Our vision</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="About.aspx">Collection policy</a></li>
+            <li><a class="dropdown-item" href="About.aspx#donations">Collection policy</a></li>
           </ul>
         </li>
         <li class="nav-item" style="margin-left: 45px;">
@@ -96,7 +96,7 @@
                         <h6>FOLLOW US</h6>
                         <div class="list-unstyled align-items-center">
                             <a href="https://www.facebook.com/midlandhistory/"><img src="Images/face.png" alt="Facebook" style="height:26px; width:26px; margin-top:2%"></a>
-                            <a href="https://www.instagram.com/midlandhistoricalsociety/"><img src="Images/insta.png" alt="Instagram" style="height:30px; width:31px; margin-top:3%; margin-left:2%"></a>
+                            <a href="https://www.instagram.com/midlandhistory"><img src="Images/insta.png" alt="Instagram" style="height:30px; width:31px; margin-top:3%; margin-left:2%"></a>
                         </div>
                     </div>
                     <div class="col-md-6">

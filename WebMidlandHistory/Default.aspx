@@ -11,19 +11,16 @@
             <div class="carousel-item active">
                 <img src="Images/3c.png" class="img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                   <h4 style=" margin-bottom: 16%; font-family: italic; text-align: center; opacity: 0.6;">Galery</h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="Images/2c.jpg" class="img-fluid" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h4 style=" margin-bottom: 16%; font-family: italic; text-align: center; opacity: 0.6;">Galery</h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="Images/1c.jpg" class="img-fluid" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                 <h4 style=" margin-bottom: 16%; font-family: italic; text-align: center; opacity: 0.6;">Galery</h4>
+                <div class="carousel-caption d-none d-md-block">             
                 </div>
             </div>
         </div>
